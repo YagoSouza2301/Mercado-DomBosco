@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="tela1.css">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <script src="https://kit.fontawesome.com/b61a4ed80b.js"
+            crossorigin="anonymous"></script>
+        <title>Empório Dom Bosco | Site Oficial</title>
+    </head>
+    <body>
+        <header>
+
+            <img src="IMAGEM/tangirina.png" alt="ícone tangirina">
+
+            <h1>
+                EMPÓRIO DOM BOSCO
+            </h1>
+
+            <nav class="navbar">
+
+                <!-- Criamos nossas Listas quando tiver em formato desktop -->
+                <ul class="nav-links">
+
+                    <li class="item-menu-header">
+                        <a href="index.html">HOME</a>
+                    </li>
+
+                    <li class="item-menu-header">
+                        <a href="#featured-products">PRODUTOS</a>
+                    </li>
+
+                    <li class="item-menu-header">
+                        <a href="#contatos">CONTATO</a>
+                    </li>
+
+                    <li class="item-menu-header">
+                        <a href="#sobre-nos">SOBRE NÓS</a>
+                    </li>
+                </ul>
+
+                <!-- Criamos nossa caixa (DIV) para guardar os elementos do Hamburger quando estiver aberto -->
+
+                <div class="mobile-menu" id="mobileMenu">
+
+                    <!-- Botão para ser utilizado para fechamento da lista -->
+                    <button id="closeButton" class="close">
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+
+                    <!-- Essa lista é o Menu Hamburger quando estiver aberto. -->
+                    <ul class="nav-links-mobile">
+                        <li>
+                            <a href>TESTE</a>
+                        </li>
+                        <li>
+                            <a href>TESTE</a>
+                        </li>
+                        <li>
+                            <a href>TESTE</a>
+                        </li>
+                    </ul>
+
+                    <div id="btn-mobile" class="cad-mobile">
+                        <button>
+                            <a href="form.html" target="_blank">
+
+                                <img src="img/user.png" alt="icone usuário">
+
+                                <p>Cadastre-se</p>
+                            </a>
+                        </button>
+                    </div>
+                    <!-- Fim da caixa do Menu Hamburger (Quando estiver aberto) -->
+                </div>
+
+                <button class="hamburger" id="hamburgerButton">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+                <!-- Fim do Menu de Navegação -->
+            </nav>
+        </header>
+
+        <div id="img-destaque">
+            <div class="img-padaria efeito-img-topo"></div>
+        </div>
+
+        <div class="img-div"></div>
+
+        <main>
+
+            <section id="clients" class="clientes-efeitos">
+
+                <h2>NOSSOS CLIENTES</h2>
+
+                <hr class="line">
+
+                <ul id="clients-list">
+
+                    <!-- Primeiro Feedback -->
+                    <li class="clients-item">
+                        <img src="IMAGEM/personagem.png" alt="icone personagem"
+                            loading="lazy">
+                        <h3>Igor Oliveira</h3>
+                        <p>"Ótimo produtos e serviços"</p>
+                    </li>
+
+                    <!-- Segundo Feedback -->
+                    <li id="clients-list">
+                        <img src="IMAGEM/personagemfemi.png"
+                            alt="icone personagem">
+                        <h3>Isadora Martins</h3>
+                        <p>"Excelente preço"</p>
+                    </li>
+
+                    <!-- Terceiro Feedback -->
+                    <li id="clients-list">
+                        <img src="IMAGEM/personagem.png" alt="icone personagem">
+                        <h3>Samuel Rodriges de Souza</h3>
+                        <p>"Pães frescos e de ótima qualidade"</p>
+                    </li>
+
+                </ul>
+            </section>
+
+            <div class="img-div"></div>
+
+            <section id="featured-products" class="principais-produtos">
+                <h3>PRINCIPAIS PRODUTOS</h3>
+
+                <!-- Div pai -->
+                <div class="products">
+
+                    <!-- Caixa Muflim -->
+                    <div>
+                        <img src="IMAGEM/muflin.jpg" alt="icone muflin" class="img-product" loading="lazy">
+                        <h4 class="title-products">Muflin</h4>
+                    </div>
+
+                    <div>
+                        <img src="IMAGEM/croissant.jpeg" alt=" icone croissant" class="img-product" loading="lazy">
+                        <h4 class="title-products">Croissant</h4>
+                    </div>
+
+
+                    <!-- Div pai -->
+                <div class="products">
+
+                    <!-- Caixa Muflim -->
+                    <div>
+                        <img src="IMAGEM/bolo.jpg" alt="icone bolo" class="img-product" loading="lazy">
+                        <h4 class="title-products">Bolo</h4>
+                    </div>
+
+                    <div>
+                        <img src="IMAGEM/bomba-chocolate.jpg" alt=" icone bomba-chocolate" class="img-product" loading="lazy">
+                        <h4 class="title-products">Bomba de chocolate</h4>
+                    </div>
+
+                    <!-- Div pai -->
+                <div class="products">
+
+                    <!-- Caixa Muflim -->
+                    <div>
+                        <img src="IMAGEM/beirute.png" alt="icone beirute" class="img-product" loading="lazy">
+                        <h4 class="title-products">Beirute</h4>
+                    </div>
+
+                    <div>
+                        <img src="IMAGEM/pao-de-metro.jpg" alt=" i  cone pao-de-metro" class="img-product" loading="lazy">
+                        <h4 class="title-products">Pão de Metro</h4>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </body>
+</html>
