@@ -66,7 +66,7 @@
                         <button>
                             <a href="form.html" target="_blank">
 
-                                <img src="img/user.png" alt="icone usuário">
+                                <img src="IMAGEM/user.png" alt="icone usuário">
 
                                 <p>Cadastre-se</p>
                             </a>
@@ -75,6 +75,7 @@
                     <!-- Fim da caixa do Menu Hamburger (Quando estiver aberto) -->
                 </div>
 
+                <!-- Botão de hamburger, ele está fora da DIV justamente por ser um elemento singular -->
                 <button class="hamburger" id="hamburgerButton">
                     <i class="fa-solid fa-bars"></i>
                 </button>
@@ -110,14 +111,15 @@
                     <!-- Segundo Feedback -->
                     <li id="clients-list">
                         <img src="IMAGEM/personagemfemi.png"
-                            alt="icone personagem">
+                            alt="icone personagem" loading="lazy">
                         <h3>Isadora Martins</h3>
                         <p>"Excelente preço"</p>
                     </li>
 
                     <!-- Terceiro Feedback -->
                     <li id="clients-list">
-                        <img src="IMAGEM/personagem.png" alt="icone personagem">
+                        <img src="IMAGEM/personagem.png" alt="icone personagem"
+                            loading="lazy">
                         <h3>Samuel Rodriges de Souza</h3>
                         <p>"Pães frescos e de ótima qualidade"</p>
                     </li>
@@ -135,41 +137,51 @@
 
                     <!-- Caixa Muflim -->
                     <div>
-                        <img src="IMAGEM/muflin.jpg" alt="icone muflin" class="img-product" loading="lazy">
+                        <img src="IMAGEM/muflin.jpg" alt="icone muflin"
+                            class="img-product" loading="lazy">
                         <h4 class="title-products">Muflin</h4>
                     </div>
 
                     <div>
-                        <img src="IMAGEM/croissant.jpeg" alt=" icone croissant" class="img-product" loading="lazy">
+                        <img src="IMAGEM/croissant.jpeg" alt=" icone croissant"
+                            class="img-product" loading="lazy">
                         <h4 class="title-products">Croissant</h4>
                     </div>
+                </div>
 
-
-                    <!-- Div pai -->
+                <!-- Div pai -->
                 <div class="products">
 
                     <!-- Caixa Muflim -->
                     <div>
-                        <img src="IMAGEM/bolo.jpg" alt="icone bolo" class="img-product" loading="lazy">
+                        <img src="IMAGEM/bolo.jpg" alt="icone bolo"
+                            class="img-product" loading="lazy">
                         <h4 class="title-products">Bolo</h4>
                     </div>
 
                     <div>
-                        <img src="IMAGEM/bomba-chocolate.jpg" alt=" icone bomba-chocolate" class="img-product" loading="lazy">
+                        <img src="IMAGEM/bomba-chocolate.jpg"
+                            alt=" icone bomba-chocolate" class="img-product"
+                            loading="lazy">
                         <h4 class="title-products">Bomba de chocolate</h4>
                     </div>
+                </div>
 
-                    <!-- Div pai -->
+                <!-- Div pai -->
                 <div class="products">
 
                     <!-- Caixa Muflim -->
                     <div>
-                        <img src="IMAGEM/beirute.png" alt="icone beirute" class="img-product" loading="lazy">
+                        <img src="IMAGEM/beirute.png"
+                            alt="icone beirute" class="img-product"
+                            loading="lazy">
                         <h4 class="title-products">Beirute</h4>
                     </div>
 
                     <div>
-                        <img src="IMAGEM/pao-de-metro.jpg" alt=" i  cone pao-de-metro" class="img-product" loading="lazy">
+                        <img src="IMAGEM/pao-de-metro.jpg"
+                            alt=" i  cone pao-de-metro"
+                            class="img-product" loading="lazy">
                         <h4 class="title-products">Pão de Metro</h4>
                     </div>
                 </div>
@@ -178,7 +190,72 @@
                     Ver tudo
                 </a>
             </section>
+
+            <!-- Sessão SOBRE NÓS -->
+            <section id="sobre-nos">
+
+                <!-- Título da minha sessão -->
+                <h3>Sobre Nós</h3>
+                <!-- Paragrafo -->
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis veniam blanditiis eius sit esse doloremque
+                    voluptates quae architecto quod, et, voluptatibus aliquam
+                    dolorum nobis dolorem quibusdam. Quisquam odit iure ad?
+
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis veniam blanditiis eius sit esse doloremque
+                    voluptates quae architecto quod, et, voluptatibus aliquam
+                    dolorum nobis dolorem quibusdam. Quisquam odit iure ad?
+
+                </p>
+
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Corporis veniam blanditiis eius sit esse doloremque
+                    voluptates quae architecto quod, et, voluptatibus aliquam
+                    dolorum nobis dolorem quibusdam. Quisquam odit iure ad?
+
+                </p>
+
+            </section>
         </main>
 
+        <footer id="contatos">
+
+            <h2>CONTATOS</h2>
+
+            <ul class="contatos">
+                <ul>
+
+                    <div>
+                        <li class="item-menu-footer">
+                            <img src="IMAGEM/icon-telephone.png" alt="icon-telephone" loading="lazy">
+                            <p>(11) 4002-8922</p>
+                        </li>
+                        <li class="item-menu-footer">
+                            <img src="IMAGEM/icon-local.png" alt="icon-local " loading="lazy">
+                            <p>Rua Dom Bosco, 757</p>
+                        </li>
+                    </div>
+
+                    <div>
+                        <li class="item-menu-footer">
+                            <img src="IMAGEM/icon-wpp.png" alt="icon-wpp" loading="lazy">
+                            <p>(11) 90000-0050</p>
+                        </li>
+                        <li class="item-menu-footer">
+                            <img src="IMAGEM/icon-instagram.png" alt="icon-instagram" loading="lazy">
+                            <p>@emporiopadaria</p>
+                        </li>
+                    </div>
+
+                </ul>
+            </ul>
+
+        </footer>
     </body>
 </html>
